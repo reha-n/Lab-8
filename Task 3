@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int usd,pkr;
+    pkr=usd*270;
+    cout<<"Enter usd amount =";
+    cin>>usd;
+    cout<<"Amount in PKR is "<<pkr;
+
+    return 0;
+}

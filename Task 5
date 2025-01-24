@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int totmarks,subj1,subj2,subj3,subj4,subj5;
+    int obtmarks;
+    float per;
+
+    totmarks= 500;
+    cout << "Total marks = 500"<<endl;
+    cout << "Enter marks for 5 subjects out of 100." << endl;
+    cout << "Enter marks for Subject 1: ";
+    cin >> subj1;
+    cout << "Enter marks for Subject 2: ";
+    cin >> subj2;
+    cout << "Enter marks for Subject 3: ";
+    cin >> subj3;
+
+    cout << "Enter marks for Subject 4: ";
+    cin >> subj4;
+    cout << "Enter marks for Subject 5: ";
+    cin >> subj5;
+
+    cout<<"inputs done \n";
+
+    obtmarks = subj1 + subj2 + subj3 + subj4 + subj5;
+    per= (obtmarks*100)/totmarks;
+
+    cout << "The student's total marks are: "<<obtmarks<<endl;
+    cout << "The student's percentage is: "<<per;
+
+    return 0;
+}
